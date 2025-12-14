@@ -405,7 +405,7 @@ Contribuições são bem-vindas! Se você quiser melhorar este projeto:
 *Universidade de Santiago – Cabo Verde*
 
 [![Email](https://img.shields.io/badge/Email-fabriciandrade2907@gmail.com-red?style=for-the-badge&logo=gmail)](mailto:fabriciandrade2907@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/c%C3%ADntia-andrade-480625398/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/c%C3%ADntia-de-oliveira-andrade-6130a839a/)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/fabriciandrade2907-dot)
 
 📍 **Localização:** Assomada, Cabo Verde  
