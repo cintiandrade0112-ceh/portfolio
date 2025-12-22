@@ -12,7 +12,7 @@
 
 **Portfólio profissional moderno e responsivo para apresentação de competências técnicas e projetos**
 
-[🌐 Ver Demo](#-demonstração) • [📖 Documentação](#-índice) • [🚀 Começar](#-como-executar-o-projeto) • [📧 Contato](#-contato)
+ • [📖 Documentação](#-índice) • [🚀 Começar](#-como-executar-o-projeto) • [📧 Contato](#-contato)
 
 </div>
 
@@ -29,7 +29,6 @@
 - [Funcionalidades](#-funcionalidades)
 - [Design e Interface](#-design-e-interface)
 - [Responsividade](#-responsividade)
-- [Demonstração](#-demonstração)
 - [Roadmap](#-roadmap)
 - [Contribuição](#-contribuição)
 - [Autora](#-autora)
@@ -39,7 +38,7 @@
 
 ## 📌 Sobre o Projeto
 
-Este projeto consiste em um **portfólio web pessoal profissional**, desenvolvido para apresentar o perfil acadêmico, profissional e técnico de **Cíntia de Oliveira Andrade**, licencianda em Engenharia Informática pela Universidade de Santiago.
+Este projeto consiste em um **portfólio web pessoal profissional**, desenvolvido para apresentar o perfil acadêmico, profissional e técnico de **Cíntia de Oliveira Andrade**, licenciada em Engenharia Informática pela Universidade de Santiago.
 
 O portfólio foi projetado para servir como:
 - 💼 Cartão de visita digital profissional
@@ -107,7 +106,7 @@ O portfólio foi projetado para servir como:
 
 - **VS Code** - Editor de código
 - **Git** - Controle de versão
-- **XAMPP/WAMP** - Servidor local (opcional)
+- **WAMP** - Servidor local (opcional)
 - **PHP Built-in Server** - Servidor de desenvolvimento
 
 ---
@@ -335,16 +334,6 @@ O portfólio é totalmente responsivo e otimizado para:
 
 ---
 
-## 🖼️ Demonstração
-
-### Screenshots
-
-*(Adicione capturas de tela do seu portfólio aqui)*
-
-```
-[Hero Section] [Sobre] [Projetos] [Contato]
-```
-
 ### Live Demo
 
 🌐 **[Ver Demo Online](#)** *(adicione o link quando publicar)*
@@ -401,7 +390,7 @@ Contribuições são bem-vindas! Se você quiser melhorar este projeto:
 
 ### **Cíntia de Oliveira Andrade**
 
-*Licencianda em Engenharia Informática*  
+*Licenciada em Engenharia Informática*  
 *Universidade de Santiago – Cabo Verde*
 
 [![Email](https://img.shields.io/badge/Email-fabriciandrade2907@gmail.com-red?style=for-the-badge&logo=gmail)](mailto:fabriciandrade2907@gmail.com)
