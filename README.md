@@ -338,7 +338,8 @@ O portfólio é totalmente responsivo e otimizado para:
 ## 🖼️ Demonstração
 
 ### Screenshots
-![alt text](image.png)
+<img width="1871" height="886" alt="image" src="https://github.com/user-attachments/assets/0b3e42f6-88b9-4c22-83c7-8d925745946e" />
+
 
 ---
 
