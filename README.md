@@ -12,7 +12,7 @@
 
 **Portfólio profissional moderno e responsivo para apresentação de competências técnicas e projetos**
 
- • [📖 Documentação](#-índice) • [🚀 Começar](#-como-executar-o-projeto) • [📧 Contato](#-contato)
+[🌐 Ver Demo](#-demonstração) • [📖 Documentação](#-índice) • [🚀 Começar](#-como-executar-o-projeto) • [📧 Contato](#-contato)
 
 </div>
 
@@ -29,6 +29,7 @@
 - [Funcionalidades](#-funcionalidades)
 - [Design e Interface](#-design-e-interface)
 - [Responsividade](#-responsividade)
+- [Demonstração](#-demonstração)
 - [Roadmap](#-roadmap)
 - [Contribuição](#-contribuição)
 - [Autora](#-autora)
@@ -106,7 +107,7 @@ O portfólio foi projetado para servir como:
 
 - **VS Code** - Editor de código
 - **Git** - Controle de versão
-- **WAMP** - Servidor local (opcional)
+- **XAMPP/WAMP** - Servidor local (opcional)
 - **PHP Built-in Server** - Servidor de desenvolvimento
 
 ---
@@ -334,9 +335,10 @@ O portfólio é totalmente responsivo e otimizado para:
 
 ---
 
-### Live Demo
+## 🖼️ Demonstração
 
-🌐 **[Ver Demo Online](#)** *(adicione o link quando publicar)*
+### Screenshots
+![alt text](image.png)
 
 ---
 
@@ -390,7 +392,7 @@ Contribuições são bem-vindas! Se você quiser melhorar este projeto:
 
 ### **Cíntia de Oliveira Andrade**
 
-*Licenciada em Engenharia Informática*  
+*licenciada em Engenharia Informática*  
 *Universidade de Santiago – Cabo Verde*
 
 [![Email](https://img.shields.io/badge/Email-fabriciandrade2907@gmail.com-red?style=for-the-badge&logo=gmail)](mailto:fabriciandrade2907@gmail.com)
