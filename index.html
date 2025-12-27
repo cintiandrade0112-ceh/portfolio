@@ -1,69 +1,63 @@
 <!DOCTYPE html>
 <html lang="pt">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
   <title>Cíntia Andrade | Engenheira Informática</title>
-
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <!--
-   <nav id="navbar">
-      <div class="logo">Cíntia<span>.</span></div>
-    <ul>
-      <li><a href="#home">Início</a></li>
-      <li><a href="#sobre">Sobre</a></li>
-      <li><a href="#experiencia">Experiência</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projetos">Projetos</a></li>
-      <li><a href="#contato">Contato</a></li>
-    </ul>
-  </nav>
--->
   <header>
     <div class="logo">Cíntia Andrade<span>.</span></div>
-
     <nav>
-        <a class="active" href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Contact</a>
+      <a class="active" href="#home">Home</a>
+      <a href="#sobre">About</a>
+      <a href="#experiencia">Experience</a>
+      <a href="#projetos">Portfolio</a>
+      <a href="#contato">Contact</a>
     </nav>
-</header>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+      <svg class="theme-icon moon-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+      </svg>
+      <svg class="theme-icon sun-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="12" cy="12" r="5"/>
+        <line x1="12" y1="1" x2="12" y2="3"/>
+        <line x1="12" y1="21" x2="12" y2="23"/>
+        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+        <line x1="1" y1="12" x2="3" y2="12"/>
+        <line x1="21" y1="12" x2="23" y2="12"/>
+        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+      </svg>
+    </button>
+  </header>
 
   <div class="hero" id="home">
     <div class="hero-content">
-       <h1>Olá, eu sou <span>Cíntia Andrade</span></h1>
+      <h1>Olá, eu sou <span>Cíntia Andrade</span></h1>
       <h2>Engenheira Informática</h2>
-     <!-- <p>Aprendiz em Desenvolvimento Web, 
-        Suporte Técnico e 
-        Sistemas de Informação</p>-->
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, ea laudantium dolorum beatae vitae quae aperiam, magnam delectus illum voluptate corrupti. Cupiditate non quisquam ex.
+      <p>Apaixonada por tecnologia e desenvolvimento web. Especializada em criar soluções inovadoras que transformam ideias em realidade digital.</p>
       <div class="cta-buttons">
         <a href="#contato" class="btn btn-primary">Entre em Contato</a>
         <a href="#projetos" class="btn btn-secondary">Ver Projetos</a>
       </div>
     </div>
-     <div class="hero-image">
-        <img src="img/2.png" alt="Profile">
-      </div>
+    <div class="hero-image">
+      <img src="img/2.png" alt="Profile">
+    </div>
   </div>
 
   <section id="sobre">
     <h2 class="section-title">Sobre Mim</h2>
     <div class="about-content">
       <div class="about-text">
-        <p>Sou <strong>Cíntia de Oliveira Andrade</strong>, licencianda em <strong>Engenharia Informática</strong> pela
-          Universidade de Santiago. Tenho experiência prática em <strong>suporte técnico, redes, sistemas
-            operativos</strong> e no <strong>desenvolvimento de sistemas web</strong>, adquirida principalmente em
-          ambiente universitário.</p>
-        <p>Atualmente busco oportunidades para aplicar meus conhecimentos em tecnologia da informação, desenvolvimento
-          web e banco de dados, contribuindo para soluções eficientes e inovadoras.</p>
+        <p>Sou <strong>Cíntia de Oliveira Andrade</strong>, licencianda em <strong>Engenharia Informática</strong> pela Universidade de Santiago. Tenho experiência prática em <strong>suporte técnico, redes, sistemas operativos</strong> e no <strong>desenvolvimento de sistemas web</strong>, adquirida principalmente em ambiente universitário.</p>
+        <p>Atualmente busco oportunidades para aplicar meus conhecimentos em tecnologia da informação, desenvolvimento web e banco de dados, contribuindo para soluções eficientes e inovadoras.</p>
         <p>Minha paixão é transformar ideias em soluções tecnológicas que fazem a diferença na vida das pessoas.</p>
       </div>
     </div>
@@ -74,8 +68,7 @@
     <div class="card">
       <h3>Licenciatura em Engenharia Informática</h3>
       <p class="meta">Universidade de Santiago | 2021 - 2025</p>
-      <p>Formação completa em desenvolvimento de sistemas, arquitetura de software, banco de dados, redes e gestão de
-        projetos tecnológicos.</p>
+      <p>Formação completa em desenvolvimento de sistemas, arquitetura de software, banco de dados, redes e gestão de projetos tecnológicos.</p>
     </div>
     <div class="card">
       <h3>Ensino Secundário</h3>
@@ -89,8 +82,7 @@
     <div class="card">
       <h3>Suporte Técnico</h3>
       <p class="meta">Universidade de Santiago | Maio 2024 - Agosto 2025</p>
-      <p>Monitorização de equipamentos de rede, instalação e configuração de sistemas operativos, softwares, firmware e
-        drivers, além de manutenção preventiva e corretiva de equipamentos.</p>
+      <p>Monitorização de equipamentos de rede, instalação e configuração de sistemas operativos, softwares, firmware e drivers, além de manutenção preventiva e corretiva de equipamentos.</p>
     </div>
     <div class="card">
       <h3>Assistente Universitária Estagiária</h3>
@@ -102,25 +94,21 @@
   <section id="skills">
     <h2 class="section-title">Competências Técnicas</h2>
     <div class="skills-grid">
-      <div class="skill-item"><span>Manutenção de equipamentos</span></div>
       <div class="skill-item"><span>PHP</span></div>
       <div class="skill-item"><span>Java</span></div>
       <div class="skill-item"><span>JavaScript</span></div>
       <div class="skill-item"><span>HTML5</span></div>
       <div class="skill-item"><span>CSS3</span></div>
       <div class="skill-item"><span>Bootstrap</span></div>
-      <div class="skill-item"><span>Prolog</span></div>
       <div class="skill-item"><span>Python</span></div>
-      <div class="skill-item"><span>Power BI</span></div>
-      <div class="skill-item"><span>Cisco Packet Tracer</span></div>
       <div class="skill-item"><span>MySQL</span></div>
-      <div class="skill-item"><span>Windows</span></div>
-      <div class="skill-item"><span>Linux</span></div>
+      <div class="skill-item"><span>Power BI</span></div>
       <div class="skill-item"><span>Git</span></div>
-      <div class="skill-item"><span>Office</span></div>
+      <div class="skill-item"><span>Linux</span></div>
+      <div class="skill-item"><span>Windows</span></div>
       <div class="skill-item"><span>Redes</span></div>
       <div class="skill-item"><span>Blender</span></div>
-      <div class="skill-item"><span>Adobes</span></div>
+      <div class="skill-item"><span>Packet Tracer</span></div>
     </div>
   </section>
 
@@ -129,8 +117,8 @@
     <div class="projects-grid">
       <div class="project-card">
         <div class="project-content">
-          <h3>Portfolio web</h3>
-          <p>Desenvolvimento de sistema com PHP e MySQL com o meu portfolio.</p>
+          <h3>Portfolio Web</h3>
+          <p>Desenvolvimento de sistema com PHP e MySQL com o meu portfólio profissional.</p>
           <div class="project-tags">
             <span class="tag">PHP</span>
             <span class="tag">MySQL</span>
@@ -138,11 +126,11 @@
             <span class="tag">HTML/CSS</span>
           </div>
         </div>
-    </div>
+      </div>
       <div class="project-card">
         <div class="project-content">
           <h3>Sistema Web Académico</h3>
-          <p>Desenvolvimento de sistema com PHP e MySQL para gestão de publicações e permissões de usuários.</p>
+          <p>Sistema para gestão de publicações e permissões de usuários.</p>
           <div class="project-tags">
             <span class="tag">PHP</span>
             <span class="tag">MySQL</span>
@@ -150,32 +138,19 @@
           </div>
         </div>
       </div>
-       <div class="project-card">
+      <div class="project-card">
         <div class="project-content">
           <h3>Compilador ConfigPT</h3>
-          <p>Desenvolvimento de um compilador com foco na tradução para o portugues para todas as configurações do sistemas</p>
+          <p>Compilador com foco na tradução para português de configurações do sistema.</p>
           <div class="project-tags">
             <span class="tag">Java</span>
           </div>
         </div>
       </div>
-       <div class="project-card">
-        <div class="project-content">
-          <h3>Sistema Web Académico</h3>
-          <p>Desenvolvimento de sistema com PHP e MySQL para gestão de publicações e permissões de usuários.</p>
-          <div class="project-tags">
-            <span class="tag">PHP</span>
-            <span class="tag">MySQL</span>
-            <span class="tag">HTML/CSS</span>
-          </div>
-        </div>
-      </div>
-      
-       
       <div class="project-card">
         <div class="project-content">
           <h3>Sistema de Controle de Presença</h3>
-          <p>Projeto académico utilizando banco de dados e interface web para gestão eficiente de presença.</p>
+          <p>Projeto académico com banco de dados e interface web para gestão de presença.</p>
           <div class="project-tags">
             <span class="tag">JavaScript</span>
             <span class="tag">MySQL</span>
@@ -186,7 +161,7 @@
       <div class="project-card">
         <div class="project-content">
           <h3>Aplicações Frontend</h3>
-          <p>Projetos com HTML, CSS e JavaScript focados em layout responsivo e experiência do usuário.</p>
+          <p>Projetos com HTML, CSS e JavaScript focados em layout responsivo.</p>
           <div class="project-tags">
             <span class="tag">HTML5</span>
             <span class="tag">CSS3</span>
@@ -203,8 +178,7 @@
       <div class="contact-info">
         <div class="contact-item">
           <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
           </svg>
           <div>
             <strong>Email</strong><br>
@@ -213,10 +187,8 @@
         </div>
         <div class="contact-item">
           <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
           </svg>
           <div>
             <strong>Localização</strong><br>
@@ -225,8 +197,7 @@
         </div>
         <div class="contact-item">
           <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" />
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"/>
           </svg>
           <div>
             <strong>Idiomas</strong><br>
@@ -234,7 +205,7 @@
           </div>
         </div>
       </div>
-      <form action="enviar.php" method="POST">
+      <form>
         <div class="form-group">
           <label for="nome">Nome</label>
           <input type="text" id="nome" name="nome" required>
@@ -258,10 +229,10 @@
 
   <div class="scroll-top" id="scrollTop">
     <svg width="24" height="24" fill="none" stroke="white" viewBox="0 0 24 24">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"/>
     </svg>
   </div>
+
+  <script src="script.js"></script>
 </body>
-
 </html>
-
