@@ -1,4 +1,4 @@
-# 🌟 Portfólio Web Profissional – Cíntia de Oliveira Andrade
+#  Portfólio Web Profissional – Cíntia de Oliveira Andrade
 
 <div align="center">
 
@@ -12,20 +12,19 @@
 
 **Portfólio profissional moderno e responsivo para apresentação de competências técnicas e projetos**
 
-[🌐 Ver Demo](#-demonstração) • [📖 Documentação](#-índice) • [🚀 Começar](#-como-executar-o-projeto) • [📧 Contato](#-contato)
+[Ver Demo](#-demonstração) • [Documentação](#-índice) • [Começar](#-como-executar-o-projeto) • [Contato](#-contato)
 
 </div>
 
 ---
 
-## 📋 Índice
+## Índice
 
 - [Sobre o Projeto](#-sobre-o-projeto)
 - [Características](#-características)
 - [Tecnologias Utilizadas](#️-tecnologias-utilizadas)
 - [Estrutura do Projeto](#-estrutura-do-projeto)
 - [Como Executar o Projeto](#-como-executar-o-projeto)
-- [Configuração do Banco de Dados](#-configuração-do-banco-de-dados)
 - [Funcionalidades](#-funcionalidades)
 - [Design e Interface](#-design-e-interface)
 - [Responsividade](#-responsividade)
@@ -37,18 +36,18 @@
 
 ---
 
-## 📌 Sobre o Projeto
+## Sobre o Projeto
 
 Este projeto consiste em um **portfólio web pessoal profissional**, desenvolvido para apresentar o perfil acadêmico, profissional e técnico de **Cíntia de Oliveira Andrade**, licenciada em Engenharia Informática pela Universidade de Santiago.
 
 O portfólio foi projetado para servir como:
-- 💼 Cartão de visita digital profissional
-- 📝 Suporte para candidaturas a estágios e empregos
-- 🎓 Apresentação de projetos acadêmicos
-- 🤝 Facilitador de networking profissional
-- 📊 Demonstração prática de competências técnicas
+- Cartão de visita digital profissional
+- Suporte para candidaturas a estágios e empregos
+- Apresentação de projetos acadêmicos
+- Facilitador de networking profissional
+- Demonstração prática de competências técnicas
 
-### 🎯 Objetivos
+### Objetivos
 
 - ✅ Apresentar informações profissionais de forma clara, organizada e atrativa
 - ✅ Demonstrar domínio prático em **HTML5, CSS3, JavaScript e PHP**
@@ -58,27 +57,27 @@ O portfólio foi projetado para servir como:
 
 ---
 
-## ✨ Características
+## Características
 
-### 🎨 Design Moderno
+### Design Moderno
 - Interface escura sofisticada com gradientes vibrantes
 - Animações suaves e elegantes em todos os elementos
 - Efeitos hover interativos para melhor experiência do usuário
 - Hero section impactante com efeitos visuais dinâmicos
 
-### ⚡ Performance
+### Performance
 - Carregamento rápido e otimizado
 - Código limpo e bem estruturado
 - Animações com performance otimizada
 - Imagens e recursos otimizados
 
-### 📱 Responsividade
+### Responsividade
 - Design totalmente responsivo para todos os dispositivos
 - Layout adaptativo para mobile, tablet e desktop
 - Navegação otimizada para telas touch
 - Experiência consistente em diferentes resoluções
 
-### 🔒 Segurança
+### Segurança
 - Validação de dados no frontend e backend
 - Proteção contra SQL Injection com prepared statements
 - Sanitização de inputs do usuário
@@ -86,7 +85,7 @@ O portfólio foi projetado para servir como:
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 ### Frontend
 
@@ -112,32 +111,32 @@ O portfólio foi projetado para servir como:
 
 ---
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 portfolio/
 │
-├── 📄 index.html              # Página principal do portfólio
-├── 📄 enviar.php              # Backend para processamento do formulário
-├── 📄 README.md               # Documentação do projeto
+├── index.html              # Página principal do portfólio
+├── enviar.php              # Backend para processamento do formulário
+├── README.md               # Documentação do projeto
 │
-├── 📁 css/
-│   └── 📄 style.css           # Folha de estilos principal
+├── css/
+│   └──  style.css           # Folha de estilos principal
 │
-├── 📁 js/
-│   └── 📄 script.js           # Scripts JavaScript
+├── js/
+│   └── script.js           # Scripts JavaScript
 │
-├── 📁 assets/                 # (Opcional) Imagens e recursos
-│   ├── 📁 images/
-│   └── 📁 icons/
+├── assets/                 # (Opcional) Imagens e recursos
+│   ├── images/
+│   └── icons/
 │
-└── 📁 database/               # (Opcional) Scripts SQL
-    └── 📄 schema.sql          # Estrutura do banco de dados
+└── database/               # (Opcional) Scripts SQL
+    └── schema.sql          # Estrutura do banco de dados
 ```
 
 ---
 
-## 🚀 Como Executar o Projeto
+## Como Executar o Projeto
 
 ### Pré-requisitos
 
@@ -150,14 +149,14 @@ Antes de começar, você precisa ter instalado em sua máquina:
 
 ### Instalação
 
-#### 1️⃣ Clone o repositório (ou baixe o ZIP)
+#### Clone o repositório (ou baixe o ZIP)
 
 ```bash
 git clone https://github.com/seu-usuario/portfolio-cintia-andrade.git
 cd portfolio-cintia-andrade
 ```
 
-#### 2️⃣ Configure o banco de dados
+####  Configure o banco de dados
 
 Execute o script SQL no MySQL:
 
@@ -177,7 +176,7 @@ CREATE TABLE mensagens_contato (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 ```
 
-#### 3️⃣ Configure as credenciais do banco
+#### 3️Configure as credenciais do banco
 
 Edite o arquivo `enviar.php` e ajuste as credenciais:
 
@@ -188,7 +187,7 @@ $user = "seu_usuario";      // Altere conforme necessário
 $pass = "sua_senha";        // Altere conforme necessário
 ```
 
-#### 4️⃣ Inicie o servidor
+####  Inicie o servidor
 
 **Opção A: PHP Built-in Server (Recomendado para desenvolvimento)**
 
@@ -202,7 +201,7 @@ php -S localhost:8000
 2. Inicie o Apache e MySQL
 3. Acesse: `http://localhost/portfolio-cintia-andrade`
 
-#### 5️⃣ Acesse no navegador
+####  Acesse no navegador
 
 Abra seu navegador e acesse:
 
@@ -210,52 +209,12 @@ Abra seu navegador e acesse:
 http://localhost:8000
 ```
 
----
-
-## 🗄️ Configuração do Banco de Dados
-
-### Estrutura da Tabela `mensagens_contato`
-
-| Campo | Tipo | Descrição |
-|-------|------|-----------|
-| `id` | INT (PK, AI) | Identificador único |
-| `nome` | VARCHAR(255) | Nome do remetente |
-| `email` | VARCHAR(255) | Email do remetente |
-| `mensagem` | TEXT | Conteúdo da mensagem |
-| `data_envio` | TIMESTAMP | Data e hora do envio |
-
-### Script SQL Completo
-
-```sql
--- Criar banco de dados
-CREATE DATABASE IF NOT EXISTS portfolio_db 
-CHARACTER SET utf8mb4 
-COLLATE utf8mb4_unicode_ci;
-
-USE portfolio_db;
-
--- Criar tabela de mensagens
-CREATE TABLE IF NOT EXISTS mensagens_contato (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    nome VARCHAR(255) NOT NULL,
-    email VARCHAR(255) NOT NULL,
-    mensagem TEXT NOT NULL,
-    data_envio TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    lida BOOLEAN DEFAULT FALSE,
-    INDEX idx_email (email),
-    INDEX idx_data_envio (data_envio)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
--- Inserir mensagem de teste (opcional)
-INSERT INTO mensagens_contato (nome, email, mensagem) 
-VALUES ('Teste', 'teste@email.com', 'Mensagem de teste');
-```
 
 ---
 
-## 📄 Funcionalidades
+##  Funcionalidades
 
-### ✅ Implementadas
+### Implementadas
 
 - [x] **Hero Section** - Apresentação impactante com animações
 - [x] **Navegação Fixa** - Menu sticky com scroll suave
@@ -271,7 +230,7 @@ VALUES ('Teste', 'teste@email.com', 'Mensagem de teste');
 - [x] **Animações on Scroll** - Elementos aparecem ao rolar
 - [x] **Design Responsivo** - Mobile-first approach
 
-### 🔄 Em Desenvolvimento
+### Em Desenvolvimento
 
 - [ ] Modo claro/escuro (theme switcher)
 - [ ] Blog integrado
@@ -283,7 +242,7 @@ VALUES ('Teste', 'teste@email.com', 'Mensagem de teste');
 
 ---
 
-## 🎨 Design e Interface
+## Design e Interface
 
 ### Paleta de Cores
 
@@ -311,23 +270,23 @@ VALUES ('Teste', 'teste@email.com', 'Mensagem de teste');
 
 ---
 
-## 📱 Responsividade
+##  Responsividade
 
 O portfólio é totalmente responsivo e otimizado para:
 
-### 📱 Mobile (< 768px)
+### Mobile (< 768px)
 - Menu de navegação em coluna
 - Cards em coluna única
 - Tipografia redimensionada
 - Espaçamentos otimizados
 - Touch-friendly buttons
 
-### 💻 Tablet (768px - 1024px)
+### Tablet (768px - 1024px)
 - Grid de 2 colunas para skills e projetos
 - Menu horizontal compacto
 - Imagens otimizadas
 
-### 🖥️ Desktop (> 1024px)
+### Desktop (> 1024px)
 - Layout completo com múltiplas colunas
 - Efeitos visuais aprimorados
 - Animações complexas
@@ -335,7 +294,7 @@ O portfólio é totalmente responsivo e otimizado para:
 
 ---
 
-## 🖼️ Demonstração
+## Demonstração
 
 ### Screenshots
 <img width="1871" height="886" alt="image" src="https://github.com/user-attachments/assets/0b3e42f6-88b9-4c22-83c7-8d925745946e" />
@@ -343,9 +302,9 @@ O portfólio é totalmente responsivo e otimizado para:
 
 ---
 
-## 🗺️ Roadmap
+## Roadmap
 
-### Versão 1.0 (Atual) ✅
+### Versão 1.0 (Atual) 
 - [x] Estrutura HTML básica
 - [x] Estilização CSS moderna
 - [x] JavaScript interativo
@@ -368,7 +327,7 @@ O portfólio é totalmente responsivo e otimizado para:
 
 ---
 
-## 🤝 Contribuição
+## Contribuição
 
 Contribuições são bem-vindas! Se você quiser melhorar este projeto:
 
@@ -387,7 +346,7 @@ Contribuições são bem-vindas! Se você quiser melhorar este projeto:
 
 ---
 
-## 👩‍💻 Autora
+## Autora
 
 <div align="center">
 
@@ -400,14 +359,14 @@ Contribuições são bem-vindas! Se você quiser melhorar este projeto:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/c%C3%ADntia-de-oliveira-andrade-6130a839a/)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/fabriciandrade2907-dot)
 
-📍 **Localização:** Assomada, Cabo Verde  
-🗣️ **Idiomas:** Criolo (nativo) | Português | Inglês (A2)
+**Localização:** Assomada, Cabo Verde  
+**Idiomas:** Criolo (nativo) | Português | Inglês (A2)
 
 </div>
 
 ---
 
-## 📧 Contato
+##  Contato
 
 Tem alguma dúvida ou sugestão? Entre em contato:
 
@@ -417,7 +376,7 @@ Tem alguma dúvida ou sugestão? Entre em contato:
 
 ---
 
-## 📜 Licença
+## Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
@@ -434,15 +393,9 @@ mesclar, publicar, distribuir, sublicenciar e/ou vender cópias do Software.
 
 ---
 
-## 🙏 Agradecimentos
 
-- Universidade de Santiago pelo suporte acadêmico
-- Comunidade de desenvolvedores por inspiração
-- Todos que contribuíram com feedback
 
----
-
-## 📊 Estatísticas do Projeto
+##  Estatísticas do Projeto
 
 ![GitHub Stars](https://img.shields.io/github/stars/seu-usuario/portfolio?style=social)
 ![GitHub Forks](https://img.shields.io/github/forks/seu-usuario/portfolio?style=social)
@@ -453,9 +406,8 @@ mesclar, publicar, distribuir, sublicenciar e/ou vender cópias do Software.
 
 <div align="center">
 
-### ⭐ Se este projeto te ajudou, considere dar uma estrela!
 
-**Feito com ❤️ por Cíntia Andrade**
+**Feito por Cíntia Andrade**
 
 [↑ Voltar ao topo](#-portfólio-web-profissional--cíntia-de-oliveira-andrade)
 
